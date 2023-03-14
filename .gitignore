@@ -1,0 +1,7 @@
+__pycache__/
+data/
+trial/
+venv*
+yolov5/
+test.py
+*.pt
