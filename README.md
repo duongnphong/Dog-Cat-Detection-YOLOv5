@@ -27,7 +27,7 @@ names:
   1: dog
 ``` 
 ## Training
-Model was trained with 10 epochs and standard COCO128 configuration (batch-size, image size, pretrained `--weights yolov5s.pt`)
+The model was trained with 10 epochs and standard COCO128 configuration (batch-size, image size and pretrained `--weights yolov5s.pt`)
 ```bash
 python train.py --img 640 --batch 16 --epochs 10 --data ../dataset.yaml --weights yolov5s.pt --device 0
 ```
